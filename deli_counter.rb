@@ -9,7 +9,7 @@ def line(array)
       position = array.map_with_index do |person, index|
         "#{index}. #{person}" 
       end 
-      puts "The line is currently: "
+      puts "The line is currently: #{position.join(" ")}"
     end
 end 
 
