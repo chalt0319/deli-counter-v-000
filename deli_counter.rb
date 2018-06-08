@@ -6,7 +6,7 @@ def line(array)
     when 0
       puts "The line is currently empty."
     else 
-      puts "The line is currently: array.join(#{array.length} #{array[array.length]})"
+      puts "The line is currently: array.join("1 ")
     end
 end 
 
