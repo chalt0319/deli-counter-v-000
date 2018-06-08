@@ -2,7 +2,7 @@
 katz_deli = []
 
 def line(array)
-  case array.size 
+  case array.length 
     when 0
       puts "The line is currently empty."
     else 
