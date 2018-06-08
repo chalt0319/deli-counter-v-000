@@ -14,7 +14,6 @@ def take_a_number(array, name)
     array.each do |array|
       array_position = 
       puts "Welcome, #{name}. You are number #{array_position} in line."
-      
     end 
 end
 
