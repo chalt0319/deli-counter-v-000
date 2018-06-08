@@ -18,7 +18,6 @@ def take_a_number(array, name)
     when 0 
       array.push(name)
       array
-    else 
       array.each_with_index do |person, index|
        puts "Welcome #{person}. You are number #{index + 1} in line"
       end 
