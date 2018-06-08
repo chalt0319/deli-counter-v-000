@@ -12,7 +12,7 @@ end
 
 def take_a_number(array, name)
     array.each do |array|
-      counter = 1 
+      array_position = 
       puts "Welcome, #{name}. You are number #{counter} in line."
       counter += 1 
     end 
