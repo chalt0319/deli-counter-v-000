@@ -13,7 +13,7 @@ def line(array)
     end
 end 
 
-def take_a_number(array, name = "Ada")
+def take_a_number(array, name)
   case array.length
     when 0 
       array.push(name)
