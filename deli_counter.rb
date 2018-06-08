@@ -22,6 +22,7 @@ def take_a_number(array, name)
       array_position = 
       puts "Welcome, #{name}. You are number #{array_position} in line."
     end 
+  end
 end
 
 def now_serving(array)
