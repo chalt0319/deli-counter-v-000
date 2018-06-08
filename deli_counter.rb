@@ -16,8 +16,7 @@ end
 def take_a_number(array, name)
   case array.length
     when 0 
-      array(name)
-      array 
+      array = name 
     else 
       array.each do |array|
         array_position = 
