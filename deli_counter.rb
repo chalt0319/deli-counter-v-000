@@ -16,10 +16,10 @@ end
 def take_a_number(array, name)
   case array.length
     when 0 
-      array.push("#{name}")
+      array.push(name)
     else 
-      array.each do |array|
-        array_position = 
+      position = array.map.with_index do |person, index|
+        "#{index + 1}. #{person}" 
         puts "Welcome, #{name}. You are number #{array_position} in line."
       end 
   end
