@@ -19,9 +19,8 @@ def take_a_number(array, name)
       array.push(name)
       array
     else 
-      position = array.each_with_index do |person, index|
-        "#{person}. You are number #{index + 1}"
-        puts "Welcome, #{position.join()} in line." 
+      array.each_with_index do |person, index|
+       puts "Welcome #{person}. You are number #{index + 1} in line"
       end 
   end
 end
