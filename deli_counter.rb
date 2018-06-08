@@ -6,6 +6,8 @@ def line(array)
     when 0
       puts "The line is currently empty."
     else 
+      array.map do |person|
+        
       puts "The line is currently: "
     end
 end 
